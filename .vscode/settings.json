@@ -1,0 +1,25 @@
+{
+  "latex-workshop.latex.outDir": "%DIR%",
+  "latex-workshop.latex.tools": [
+    {
+      "name": "xelatexmkshesc",
+      "command": "latexmk",
+      "args": [
+        "-shell-escape",
+        "-synctex=1",
+        "-file-line-error",
+        "-xelatex",
+        "-outdir=%OUTDIR%",
+        "%DOC%"
+      ],
+      "env": {}
+    }
+  ],
+  "latex-workshop.latex.recipe.default": "lastUsed",
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "latexmk (minted)",
+      "tools": ["xelatexmkshesc"]
+    },
+  ],
+}
