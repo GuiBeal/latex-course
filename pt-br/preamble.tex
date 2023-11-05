@@ -7,7 +7,7 @@
     \setdefaultlanguage{brazil}
     \usefonttheme{professionalfonts}
   \usepackage{fontspec}
-   \usepackage{unicode-math}
+  \usepackage{unicode-math}
 \else
   \usepackage[brazil]{babel}
   \usepackage[T1]{fontenc}
@@ -47,7 +47,7 @@
 
 % this is where the example source files are loaded from
 % do not include a trailing slash
-\newcommand{\fileuri}{https://raw.github.com/lrsantos11/latex-course/master/pt-br}
+\newcommand{\fileuri}{https://raw.github.com/guibeal/latex-course/master/pt-br}
 
 \newcommand{\wlserver}{https://www.overleaf.com}
 \newcommand{\wlnewdoc}[1]{\wlserver/docs?snip\_uri=\fileuri/#1\&splash=none}
@@ -116,22 +116,22 @@
    \end{minipage}
    \end{tabular}}
 
-\title{Uma Introdução Interativa do  \LaTeX}
-\author{Dr John D. Lees-Miller \texorpdfstring{\\[2mm]}{}
-Tradução: Dr Luiz-Rafael Santos
+\title{Uma Introdução Interativa ao \LaTeX}
+\author{
+  Dr John D. Lees-Miller
+  \texorpdfstring{\\[2mm]}{}
+  Tradução: Dr Luiz-Rafael Santos
+  \texorpdfstring{\\[2mm]}{}
+  Adaptação: Guilherme de P. Beal
 }
 \titlegraphic{%
-\includegraphics[height=30pt]{overleaf}\\[2mm]
-\includegraphics[width=.3\textwidth]{UoB-logo}
- \qquad
- \includegraphics[width=.2\textwidth]{setsquared_supported}
- \qquad
- \includegraphics[width=.13\textwidth]{ufsc_color}
+  \includegraphics[height=30pt]{overleaf}
+  \\[0.75mm]
+  \includegraphics[height=45pt]{ufrgs}
+  \qquad
+  \includegraphics[height=45pt]{ceeca}
 }
 
-
-
-
- \makeatletter
+\makeatletter
 \define@key{PAX@Gin}{scale}{}
 \makeatother

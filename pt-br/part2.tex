@@ -82,7 +82,7 @@ Para melhores resultados, por favor use \href{http://www.google.com/chrome}{Goog
 \inputminted[fontsize=\tiny,frame=single,resetmargins]{latex}%
   {structure-sections.tex}
 \end{minipage}
-\begin{minipage}{0.40\linewidth} 
+\begin{minipage}{0.40\linewidth}
 \expandafter\includegraphics\expandafter[width=\textwidth,clip,trim=1.5in 6in 3.5in 1in]{structure-sections.pdf}
 \end{minipage}
 \end{frame}
@@ -93,7 +93,7 @@ Para melhores resultados, por favor use \href{http://www.google.com/chrome}{Goog
 \subsection{Rótulos e Referência Cruzada}
 \begin{frame}[fragile]{\insertsubsection}
 \begin{itemize}{\small
-\item Use \cmdbs{label} para rotular e \cmdbs{ref} para referência cruzada automática. 
+\item Use \cmdbs{label} para rotular e \cmdbs{ref} para referência cruzada automática.
 \item O pacote \bftt{amsmath} disponibiliza o comando \cmdbs{eqref} para referenciar equações.
 }\end{itemize}
 \begin{minipage}{0.45\linewidth}
@@ -154,7 +154,7 @@ clique aqui para ver a solução}}.
 \begin{itemize}
 \item O pacote \bftt{graphicx} é necessário, já que provê o comando
 \cmdbs{includegraphics}.
-\item Formatos de figuras que tem suporte incluem JPEG, PNG e PDF (em geral). 
+\item Formatos de figuras que tem suporte incluem JPEG, PNG e PDF (em geral).
 \end{itemize}
 \begin{exampletwouptiny}
 \includegraphics[
@@ -173,16 +173,16 @@ clique aqui para ver a solução}}.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]{Interlúdio: Argumentos opcionais}
 \begin{itemize}
-\item Usamos colchetes  \keystrokebftt{[} \keystrokebftt{]} para inserir 
+\item Usamos colchetes  \keystrokebftt{[} \keystrokebftt{]} para inserir
 argumentos opcionais, ao invés de chaves\keystrokebftt{\{} \keystrokebftt{\}}.
 \item \cmdbs{includgraphics} aceita argumentos opcionais que permitem você transformar
- a imagem que está sendo incluída. Por exemplo,  \bftt{width=0.3\cmdbs{textwidth}} faz 
+ a imagem que está sendo incluída. Por exemplo,  \bftt{width=0.3\cmdbs{textwidth}} faz
  com que a imagem tenha 30\% da largura do texto  (\cmdbs{textwidth}).
 \item \cmdbs{documentclass} também aceita argumenos opcionais. Exemplo:
 \mint{latex}|\documentclass[12pt,twocolumn]{article}|
 % \vskip 3ex
 faz com que o texto torne-se maior (12pt) e mostra o texto em duas colunas.
-\item Onde você encontra informações sobre isso? Veja os \emph{slides} no final 
+\item Onde você encontra informações sobre isso? Veja os \emph{slides} no final
 dessa apresentação com \emph{links} para mais informações.
 \end{itemize}
 \end{frame}
@@ -253,12 +253,12 @@ linha (como no ambiente  \bftt{align*} que vimos na parte 1).
 \tableofcontents[currentsection]
 \end{multicols}
 \end{frame}
- 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{bib\TeX}
-\begin{frame}[fragile]{\insertsubsection{} 1} 
+\begin{frame}[fragile]{\insertsubsection{} 1}
 \begin{itemize}
 \item Coloque suas referências em um arquivo  \bftt{.bib}:
 \inputminted[fontsize=\tiny,frame=single]{latex}{bib-example.bib}
@@ -279,13 +279,13 @@ a chave para citar o artigo:
   author = {Wagner Rodrigues Valente},
   ...
 }
-\end{minted} 
+\end{minted}
 \item É uma boa ideia usar chaves baseadas no autor, ano ou título do trabalho.
 \item \LaTeX{} pode formatar automaticamente suas citações e gerar uma lista de
 referências com os mais conhecidos padrões de estilos ou com o seu próprio.
-\item Para o português brasileiro, há um conjunto de pacotes chamado 
+\item Para o português brasileiro, há um conjunto de pacotes chamado
 \href{http://www.abntex.net.br/}{\bftt{abntex2}} que
-formata as referências --- e o texto também --- segundo o padrão ABNT. 
+formata as referências --- e o texto também --- segundo o padrão ABNT.
 \end{itemize}
 \end{frame}
 
@@ -303,7 +303,7 @@ formata as referências --- e o texto também --- segundo o padrão ABNT.
 \end{minipage}
 \begin{minipage}{0.4\linewidth}
 \includegraphics[width=\textwidth,clip,trim=1.8in 5in 1.5in 1in]{bib-example.pdf}
-\end{minipage} 
+\end{minipage}
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -320,7 +320,7 @@ formata as referências --- e o texto também --- segundo o padrão ABNT.
 \end{minipage}
 \begin{minipage}{0.4\linewidth}
 \includegraphics[width=\textwidth,clip,trim=1.8in 5in 1.5in 1in]{bib-example-abnt.pdf}
-\end{minipage} 
+\end{minipage}
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -414,7 +414,7 @@ exemplos da maioria desses pacotes\footnote{Em inglês.}.
 \item No Windows: \href{http://miktex.org/}{Mik\TeX} ou \href{http://tug.org/texlive/}{\TeX Live}
 \item No Linux: \href{http://tug.org/texlive/}{\TeX Live}
 \item No Mac: \href{http://tug.org/mactex/}{Mac\TeX}
-\end{itemize} 
+\end{itemize}
 \item Você também vai querer utilizar um editor para \LaTeX{}. Veja \url{en.wikipedia.org/wiki/Comparison_of_TeX_editors} para uma lista em inglês de opções.
 \item Você também vai precisar saber mais sobre como \bftt{latex} e suas ferramentas relacionadas funcionam --- veja fontes de recursos no próximo \emph{slide}.
 \end{itemize}
@@ -450,159 +450,159 @@ Obrigado, e capriche nos seus próximos  \TeX{}tos!
 
 \end{document}
 
-% -- latex understands words, sentences and paragraphs
+% % -- latex understands words, sentences and paragraphs
 
-Words are separated by one or more spaces.  Paragraphs are separated by
-one or more blank lines.  The output is not affected by adding extra
-spaces or extra blank lines to the input file.
+% Words are separated by one or more spaces.  Paragraphs are separated by
+% one or more blank lines.  The output is not affected by adding extra
+% spaces or extra blank lines to the input file.
 
-Double quotes are typed like this: ``quoted text''.
-Single quotes are typed like this: `single-quoted text'.
+% Double quotes are typed like this: ``quoted text''.
+% Single quotes are typed like this: `single-quoted text'.
 
-Emphasized text is typed like this: \emph{this is emphasized}.
-Bold       text is typed like this: \textbf{this is bold}.
+% Emphasized text is typed like this: \emph{this is emphasized}.
+% Bold       text is typed like this: \textbf{this is bold}.
 
--- Adding structure to your document
+% -- Adding structure to your document
 
-\section{Hello}
+% \section{Hello}
 
-\subsection{World}
+% \subsection{World}
 
-\subsection{Foo}
+% \subsection{Foo}
 
-\subsubsection*{Stuff} % star form
+% \subsubsection*{Stuff} % star form
 
-\subsubsection*{Results}
+% \subsubsection*{Results}
 
--- Labels and cross-references
+% -- Labels and cross-references
 
-\label{sec:intro}
-\label{sec:method}
-\ref{sec:method}
+% \label{sec:intro}
+% \label{sec:method}
+% \ref{sec:method}
 
---> maybe introduce the prettyref package here.
+% --> maybe introduce the prettyref package here.
 
--- Mathematics
+% -- Mathematics
 
-Inline mathematics: $x + y < 7$.
+% Inline mathematics: $x + y < 7$.
 
-'Displayed' mathematics:
-\begin{equation}
-\end{equation}
+% 'Displayed' mathematics:
+% \begin{equation}
+% \end{equation}
 
-\begin{equation*}
-\end{equation*}
+% \begin{equation*}
+% \end{equation*}
 
-\begin{align}
-\end{align}
+% \begin{align}
+% \end{align}
 
--- Figures
+% -- Figures
 
-- Need the graphicx package.
+% - Need the graphicx package.
 
-- here we can start introducing options
+% - here we can start introducing options
 
-\includegraphics[width=\textwidth]{}
+% \includegraphics[width=\textwidth]{}
 
-- where do you find out about these options? --> link to the Wikibook
+% - where do you find out about these options? --> link to the Wikibook
 
--- Floating Figures
+% -- Floating Figures
 
-\begin{figure}
-\includegraphics{...}
-\caption{\label{}Here is a caption.}
-\end{figure}
+% \begin{figure}
+% \includegraphics{...}
+% \caption{\label{}Here is a caption.}
+% \end{figure}
 
--- Tables
+% -- Tables
 
-- not the nicest part of LaTeX
+% - not the nicest part of LaTeX
 
-\usepackage{tabularx}
+% \usepackage{tabularx}
 
-\begin{tabular}{llr}
-Item & Quantity & Price (\$) & Amount
-Widget & 1 & 
-\end{tabular}
+% \begin{tabular}{llr}
+% Item & Quantity & Price (\$) & Amount
+% Widget & 1 &
+% \end{tabular}
 
-Bonus points: check out the fp package and the spreadtab package.
+% Bonus points: check out the fp package and the spreadtab package.
 
--- Document Classes
+% -- Document Classes
 
-a .cls file
+% a .cls file
 
-article
+% article
 
-some journal templates come with one
+% some journal templates come with one
 
--- Bibliographies
+% -- Bibliographies
 
 
 
--- For Typesetting Geeks
+% -- For Typesetting Geeks
 
-- dashes: -, --, ---
+% - dashes: -, --, ---
 
-- ellipsis.
+% - ellipsis.
 
-- controlling spaces: ~, \ , \,, \@
+% - controlling spaces: ~, \ , \,, \@
 
-- spacing after periods (et al., etc.)
+% - spacing after periods (et al., etc.)
 
-- Nested quotation marks: ``\,`
-\vskip 2ex
-\item Use the \emph{star form} to display an equation without a number.
-\begin{exampletwouptiny}
-\begin{equation*}
-F(x) = \int_{a}^{x}{f(t) dt}
-\end{equation*}
-\end{exampletwouptiny}
+% - Nested quotation marks: ``\,`
+% \vskip 2ex
+% \item Use the \emph{star form} to display an equation without a number.
+% \begin{exampletwouptiny}
+% \begin{equation*}
+% F(x) = \int_{a}^{x}{f(t) dt}
+% \end{equation*}
+% \end{exampletwouptiny}
 
-\begin{itemize}
-\item \bftt{equation} and \bftt{equation*} are called \emph{environments}.
-\begin{itemize}
-  \item The \cmdbs{begin} and \cmdbs{end} commands define the environment.
-  \item The \cmd{\$} also starts and ends an environment.
-  \item Some commands are defined only within certain environments.
-  \item Some commands behave differently in different environments.
-\end{itemize}
-\end{itemize}
-\end{block}
-\begin{center}
-\fbox{\href{http://ctan.org/}{The Comprehensive \TeX Archive Network (CTAN)}}
-\end{center}
+% \begin{itemize}
+% \item \bftt{equation} and \bftt{equation*} are called \emph{environments}.
+% \begin{itemize}
+%   \item The \cmdbs{begin} and \cmdbs{end} commands define the environment.
+%   \item The \cmd{\$} also starts and ends an environment.
+%   \item Some commands are defined only within certain environments.
+%   \item Some commands behave differently in different environments.
+% \end{itemize}
+% \end{itemize}
+% \end{block}
+% \begin{center}
+% \fbox{\href{http://ctan.org/}{The Comprehensive \TeX Archive Network (CTAN)}}
+% \end{center}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Typography tweaks}
-\begin{frame}{\insertsubsection}
-\begin{tabular}{lll}
-& character name & used mainly for \ldots \\\hline
-\bftt{\bs} & backslash                 & commands, tables \\
-\bftt{\{}  & open brace                & commands \\
-\bftt{\}}  & close brace               & commands \\
-\bftt{\%}  & percent sign              & comments \\
-\bftt{\#}  & hash (pound / sharp) sign & custom commands \\
-\bftt{\$}  & dollar sign               & equations \\
-\bftt{\_}  & underscore                & equations (subscripts) \\
-\bftt{\^}  & caret                     & equations (superscripts) \\
-\bftt{\&}  & ampersand                 & tables \\
-\bftt{\~}  & tilde                     & spacing \\
-\end{tabular}
-\end{frame}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \subsection{Typography tweaks}
+% \begin{frame}{\insertsubsection}
+% \begin{tabular}{lll}
+% & character name & used mainly for \ldots \\\hline
+% \bftt{\bs} & backslash                 & commands, tables \\
+% \bftt{\{}  & open brace                & commands \\
+% \bftt{\}}  & close brace               & commands \\
+% \bftt{\%}  & percent sign              & comments \\
+% \bftt{\#}  & hash (pound / sharp) sign & custom commands \\
+% \bftt{\$}  & dollar sign               & equations \\
+% \bftt{\_}  & underscore                & equations (subscripts) \\
+% \bftt{\^}  & caret                     & equations (superscripts) \\
+% \bftt{\&}  & ampersand                 & tables \\
+% \bftt{\~}  & tilde                     & spacing \\
+% \end{tabular}
+% \end{frame}
 
-%\item We've used several environments:
-%\vskip 1ex
-%{\scriptsize
-%\begin{tabular}{ll}
-%\cmdbs{begin}\bftt{\{document\}}\ldots\cmdbs{end}\bftt{\{document\}} &
-%  document environment \\
-%\cmdbs{begin}\bftt{\{itemize\}}\ldots\cmdbs{end}\bftt{\{itemize\}} &
-%  itemized list environment \\
-%\bftt{\$\ldots\$}     & \emph{in-text} math environment \\
-%\bftt{\$\$\ldots\$\$} & \emph{displayed} math environment \\
-%\cmdbs{begin}\bftt{\{equation\}}\ldots\cmdbs{end}\bftt{\{equation\}} &
-%  displayed math environment w/ number
-%\end{tabular}
-%}
+% %\item We've used several environments:
+% %\vskip 1ex
+% %{\scriptsize
+% %\begin{tabular}{ll}
+% %\cmdbs{begin}\bftt{\{document\}}\ldots\cmdbs{end}\bftt{\{document\}} &
+% %  document environment \\
+% %\cmdbs{begin}\bftt{\{itemize\}}\ldots\cmdbs{end}\bftt{\{itemize\}} &
+% %  itemized list environment \\
+% %\bftt{\$\ldots\$}     & \emph{in-text} math environment \\
+% %\bftt{\$\$\ldots\$\$} & \emph{displayed} math environment \\
+% %\cmdbs{begin}\bftt{\{equation\}}\ldots\cmdbs{end}\bftt{\{equation\}} &
+% %  displayed math environment w/ number
+% %\end{tabular}
+% %}
 

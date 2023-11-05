@@ -1,8 +1,8 @@
 latex-course
 ============
 
-*Slides* para um curso introdutório de LaTeX. Estes *slides* e seu código-fonte em LaTeX 
-são disponibilizados [neste repositóriodo github](https://github.com/lrsantos11/latex-course) sob  a permissiva licença  MIT.
+*Slides* para um curso introdutório de LaTeX. Estes *slides* e seu código-fonte em LaTeX
+são disponibilizados [neste repositóriodo github](https://github.com/guibeal/latex-course) sob  a permissiva licença  MIT.
 
 O Objetivo é fazer com que estudantes comecem a escrever em LaTeX tão rápido quanto possível. O material é apresentado
 como um cojunto de exemplos, e conceitos e técnicas mais avançadas são explicadas quando aparecem. Cada parte inclui exercícios
