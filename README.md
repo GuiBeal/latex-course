@@ -1,17 +1,17 @@
 latex-course
 ============
 
-*Slides* para um curso introdutório de LaTeX. Estes *slides* e seu código-fonte em LaTeX são disponibilizados [neste repositóriodo github](https://github.com/guibeal/latex-course) sob  a permissiva licença  MIT.
+*Slides* para um curso introdutório de LaTeX. Estes *slides* e seu código-fonte em LaTeX são disponibilizados [neste repositóriodo github](https://github.com/guibeal/latex-course) sob a permissiva licença  MIT.
 
-O Objetivo é fazer com que estudantes comecem a escrever em LaTeX tão rápido quanto possível. O material é apresentado como um cojunto de exemplos, e conceitos e técnicas mais avançadas são explicadas quando aparecem. Cada parte inclui exercícios que podem ser completados no [Overleaf](https://www.overleaf.com), um editor de LaTeX *online* e gratuito, tal que você não rprecisa se preocupar em instalar o LaTeX e suas ferramentas relacionadas no computador de todos.
+O objetivo é fazer com que estudantes comecem a escrever em LaTeX tão rápido quanto possível. O material é apresentado como um cojunto de exemplos, e conceitos e técnicas mais avançadas são explicadas quando aparecem. Cada parte inclui exercícios que podem ser completados no [Overleaf](https://www.overleaf.com), um editor de LaTeX *online* e gratuito, tal que você não precisa se preocupar em instalar o LaTeX e suas ferramentas relacionadas no computador de todos.
 
 Estes *slides* foram usados originalmente para um mini-curso de duas horas, mas há material suficiente para um mini-curso com três partes, então há três partes:
 
-1. [O básico](http:///github.com/GuiBeal/latex-course/tree/master/pt-br/part1.pdf): ideias, sintaxe, equações, ambientes, pacotes
+1. [O básico](http:///github.com/GuiBeal/latex-course/tree/master/pt-br/part1.pdf): ideias, sintaxe, equações, ambientes, pacotes.
 
-1. [Documentos extruturados  & mais](http:///github.com/GuiBeal/latex-course/tree/master/pt-br/part2.pdf): títulos, seções, referências cruzadas,  figuras, tabelas, bibliografias.
+1. [Documentos extruturados & mais](http:///github.com/GuiBeal/latex-course/tree/master/pt-br/part2.pdf): títulos, seções, referências cruzadas, figuras, tabelas, bibliografias.
 
-1. [Não só artigos: Apresentações & Mais](http:///github.com/GuiBeal/latex-course/tree/master/pt-br/part3.pdf): exercícios para lembrança, apresentações com beamer, desenhos com  tikz.
+1. [Não só artigos: Apresentações & Mais](http:///github.com/GuiBeal/latex-course/tree/master/pt-br/part3.pdf): exercícios para lembrança, apresentações com beamer, desenhos com tikz.
 
 Sinta-se a vontade para usar conforme deseje --- contribuições são bem-vindas!
 
