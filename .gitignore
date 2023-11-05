@@ -17,9 +17,6 @@
 en/part1.pdf
 en/part2.pdf
 en/part3.pdf
-pt-br/part1.pdf
-pt-br/part2.pdf
-pt-br/part3.pdf
 
 ## Bibliography auxiliary files (bibtex/biblatex/biber):
 *.bbl
@@ -100,11 +97,13 @@ en/media-graphics.pdf
 en/structure-crossref.pdf
 en/structure-sections.pdf
 en/structure-title.pdf
+en/*-solution.pdf
+en/_minted-part*/
 
 pt-br/bib-example.pdf
 pt-br/media-graphics.pdf
 pt-br/structure-crossref.pdf
 pt-br/structure-sections.pdf
 pt-br/structure-title.pdf
-en/_minted-part*/
+pt-br/*-solution.pdf
 pt-br/_minted-part*/
