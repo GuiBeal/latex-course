@@ -1,22 +1,21 @@
 \documentclass{article}
 \usepackage[brazil]{babel}
-\usepackage[utf8]{inputenc} 
-\usepackage[T1]{fontenc} 
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 \usepackage{csquotes} %biblatex no Brasil
-\usepackage[style = abnt, % Estilo 'abnt' necessita de TeXLive 2016
+\usepackage[style = abnt,
 sortcites,language = brazil]{biblatex}
 
-\addbibresource{bib-example.bib} 
+\addbibresource{bib-example.bib}
 
 \begin{document}
 
-\textcite{Boyce2010}
-mostram que  [\ldots]. 
-É possível ver ainda que se $p>1$ 
-é ímpar então é  primo
-\cite{Valente1999,Boyce2010}.
+\textcite{Boyce2010} mostram que [\ldots]
+
+É possível ver ainda que se $p > 1$ é ímpar
+então $x$ é primo \cite{Valente1999,Boyce2010}.
 
 %para imprimir a bibliografia
-\printbibliography 
+\printbibliography
 
 \end{document}

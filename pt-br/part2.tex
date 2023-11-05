@@ -3,7 +3,7 @@
 
 \input{preamble.tex}
 
-\subtitle{Parte 2: Documentos Estruturados \& muito mais}
+\subtitle{Parte 2: Documentos Estruturados \& Muito Mais}
 
 \begin{document}
 
@@ -33,20 +33,18 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}{\insertsection}
 \begin{itemize}
-\item Na Parte 1, aprendemos como utilizar comandos e ambientes para digitar textos, matemáticos ou não.
-\item Agora, aprenderemos a utilizar comandos e ambientes para estruturar documentos.
-\item Você pode tentar os novos comandos no Overleaf:
+  \item Na Parte 1, aprendemos como utilizar comandos e ambientes para digitar textos, matemáticos ou não.
+  \item Agora, aprenderemos a utilizar comandos e ambientes para estruturar documentos.
+  \item Você deve tentar os novos comandos no Overleaf:
 \end{itemize}
 \vskip 2em
 \begin{center}
-\fbox{\href{\wlnewdoc{basics.tex}}{%
-Clique aqui para abrir o documento-exemplo no \wllogo{}}}
+\fbox{\href{\wlnewdoc{basics.tex}}{Clique aqui para abrir o documento-exemplo no \wllogo{}}}
 \\[1ex]\scriptsize{}
-Para melhores resultados, por favor use \href{http://www.google.com/chrome}{Google Chrome} ou \href{http://www.mozilla.org/pt-BR/firefox/new/}{FireFox}.
 \end{center}
 \vskip 2ex
 \begin{itemize}
-\item Vamos começar!
+  \item Vamos começar!
 \end{itemize}
 \end{frame}
 
@@ -56,16 +54,15 @@ Para melhores resultados, por favor use \href{http://www.google.com/chrome}{Goog
 \subsection{Título e Resumo}
 \begin{frame}[fragile]{\insertsubsection}
 \begin{itemize}{\small
-\item Informe ao \LaTeX{} no preâmbulo o título, usando o comando \cmdbs{title} e o autor, usando o comando \cmdbs{author}.
-\item Então  use \cmdbs{maketitle} no documento para realmente criar o título.
-\item Use o ambiente \bftt{abstract} para criar um resumo.
+  \item Informe ao \LaTeX{} no preâmbulo o título, usando o comando \cmdbs{title} e o autor, usando o comando \cmdbs{author}.
+  \item Então use \cmdbs{maketitle} no documento para realmente criar o título.
+  \item Use o ambiente \bftt{abstract} para criar um resumo.
 }\end{itemize}
 \begin{minipage}{0.45\linewidth}
-\inputminted[fontsize=\tiny,frame=single,resetmargins]{latex}%
-  {structure-title.tex}
+  \inputminted[fontsize=\tiny,frame=single,resetmargins]{latex}{structure-title.tex}
 \end{minipage}
 \begin{minipage}{0.45\linewidth}
-\includegraphics[width=\textwidth,clip,trim=2.2in 7in 2.2in 2in]{structure-title.pdf}
+  \includegraphics[width=\textwidth,clip,trim=2.2in 7in 2.2in 2in]{structure-title.pdf}
 \end{minipage}
 \end{frame}
 
@@ -75,15 +72,14 @@ Para melhores resultados, por favor use \href{http://www.google.com/chrome}{Goog
 \subsection{Seções}
 \begin{frame}{\insertsubsection}
 \begin{itemize}{\small
-\item Utilize os comandos  \cmdbs{section} e \cmdbs{subsection} para criar seções e subseções.
-\item Você pode adivinhar o que os comandos \cmdbs{section*} e \cmdbs{subsection*} fazem?
+  \item Utilize os comandos \cmdbs{section} e \cmdbs{subsection} para criar seções e subseções.
+  \item Você pode adivinhar o que os comandos \cmdbs{section*} e \cmdbs{subsection*} fazem?
 }\end{itemize}
-\begin{minipage}{0.55\linewidth}
-\inputminted[fontsize=\tiny,frame=single,resetmargins]{latex}%
-  {structure-sections.tex}
+\begin{minipage}{0.45\linewidth}
+  \inputminted[fontsize=\tiny,frame=single,resetmargins]{latex}{structure-sections.tex}
 \end{minipage}
-\begin{minipage}{0.40\linewidth}
-\expandafter\includegraphics\expandafter[width=\textwidth,clip,trim=1.5in 6in 3.5in 1in]{structure-sections.pdf}
+\begin{minipage}{0.45\linewidth}
+  \expandafter\includegraphics\expandafter[width=\textwidth,clip,trim=1.5in 6in 3.5in 1in]{structure-sections.pdf}
 \end{minipage}
 \end{frame}
 
@@ -93,15 +89,14 @@ Para melhores resultados, por favor use \href{http://www.google.com/chrome}{Goog
 \subsection{Rótulos e Referência Cruzada}
 \begin{frame}[fragile]{\insertsubsection}
 \begin{itemize}{\small
-\item Use \cmdbs{label} para rotular e \cmdbs{ref} para referência cruzada automática.
-\item O pacote \bftt{amsmath} disponibiliza o comando \cmdbs{eqref} para referenciar equações.
+  \item Use \cmdbs{label} para rotular e \cmdbs{ref} para referência cruzada automática.
+  \item O pacote \bftt{amsmath} disponibiliza o comando \cmdbs{eqref} para referenciar equações.
 }\end{itemize}
 \begin{minipage}{0.45\linewidth}
-\inputminted[fontsize=\tiny,frame=single,resetmargins]{latex}%
-  {structure-crossref.tex}
+  \inputminted[fontsize=\tiny,frame=single,resetmargins]{latex}{structure-crossref.tex}
 \end{minipage}
 \begin{minipage}{0.45\linewidth}
-\includegraphics[width=\textwidth,clip,trim=1.8in 6in 1.8in 1in]{structure-crossref.pdf}
+  \includegraphics[width=\textwidth,clip,trim=1.8in 6in 1.625in 1in]{structure-crossref.pdf}
 \end{minipage}
 \end{frame}
 
@@ -114,21 +109,18 @@ Para melhores resultados, por favor use \href{http://www.google.com/chrome}{Goog
 \begin{block}{Digite um  artigo curto em \LaTeX:
 \footnote{Traduzido a partir de  \url{http://pdos.csail.mit.edu/scigen/}, um gerador de artigos aleatórios.}}
 \begin{center}
-\fbox{\href{\fileuri/structure-exercise-solution.pdf}{%
-Clique aqui para abrir o artigo}}
+\fbox{\href{\fileuri/structure-exercise-solution.pdf}{Clique aqui para abrir o artigo}}
 \end{center}
-Faça seu artigo parecer com este aqui. Use os comandos \cmdbs{ref} e \cmdbs{eqref} para evitar escrever explicitamente seção e número de equações no texto.
+Faça seu artigo parecer com este aqui.
+Use os comandos \cmdbs{ref} e \cmdbs{eqref} para evitar escrever explicitamente seção e número de equações no texto.
 \end{block}
 \vskip 2ex
 \begin{center}
-\fbox{\href{\wlnewdoc{structure-exercise.tex}}{%
-Clique aqui para abrir este exercício no \wllogo{}}}
+\fbox{\href{\wlnewdoc{structure-exercise.tex}}{Clique aqui para abrir este exercício no \wllogo{}}}
 \end{center}
-
 \begin{itemize}
-\item Uma vez que tenha tentado,
-\fbox{\href{\wlnewdoc{structure-exercise-solution.tex}}{%
-clique aqui para ver a solução}}.
+  \item Uma vez que tenha tentado,
+\fbox{\href{\wlnewdoc{structure-exercise-solution.tex}}{clique aqui para ver a solução}}.
 \end{itemize}
 \end{frame}
 
@@ -152,17 +144,18 @@ clique aqui para ver a solução}}.
 \subsection{Figuras}
 \begin{frame}[fragile]{\insertsubsection}
 \begin{itemize}
-\item O pacote \bftt{graphicx} é necessário, já que provê o comando
-\cmdbs{includegraphics}.
-\item Formatos de figuras que tem suporte incluem JPEG, PNG e PDF (em geral).
+  \item O pacote \bftt{graphicx} é necessário, já que provê o comando \cmdbs{includegraphics}.
+  \item Formatos de figuras suportados: JPEG, PNG, PDF, etc.
 \end{itemize}
 \begin{exampletwouptiny}
 \includegraphics[
-  width=0.5\textwidth]{gerbil}
+  width=0.5\textwidth]
+  {gerbil}
 
 \includegraphics[
   width=0.3\textwidth,
-  angle=270]{gerbil}
+  angle=270]
+  {gerbil}
 \end{exampletwouptiny}
 
 \tiny{Licença para imagem: \href{https://pixabay.com/en/animal-apple-attractive-beautiful-1239390/}{CC0}}
@@ -171,38 +164,32 @@ clique aqui para ver a solução}}.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]{Interlúdio: Argumentos opcionais}
+\begin{frame}[fragile]{Interlúdio: Argumentos Opcionais}
 \begin{itemize}
-\item Usamos colchetes  \keystrokebftt{[} \keystrokebftt{]} para inserir
-argumentos opcionais, ao invés de chaves\keystrokebftt{\{} \keystrokebftt{\}}.
-\item \cmdbs{includgraphics} aceita argumentos opcionais que permitem você transformar
- a imagem que está sendo incluída. Por exemplo,  \bftt{width=0.3\cmdbs{textwidth}} faz
- com que a imagem tenha 30\% da largura do texto  (\cmdbs{textwidth}).
-\item \cmdbs{documentclass} também aceita argumenos opcionais. Exemplo:
+  \item Usamos colchetes \keystrokebftt{[} \keystrokebftt{]} para inserir  argumentos opcionais, ao invés de chaves \keystrokebftt{\{} \keystrokebftt{\}}.
+  \item \cmdbs{includgraphics} aceita argumentos opcionais que permitem você transformar a imagem que está sendo incluída. Por exemplo, \bftt{width=0.3\cmdbs{textwidth}} faz com que a imagem tenha 30\% da largura do texto (\cmdbs{textwidth}).
+  \item \cmdbs{documentclass} também aceita argumenos opcionais. Exemplo:
 \mint{latex}|\documentclass[12pt,twocolumn]{article}|
 % \vskip 3ex
-faz com que o texto torne-se maior (12pt) e mostra o texto em duas colunas.
-\item Onde você encontra informações sobre isso? Veja os \emph{slides} no final
-dessa apresentação com \emph{links} para mais informações.
+  faz com que o texto torne-se maior (12pt) e mostra o texto em duas colunas.
+  \item Onde você encontra informações sobre isso? Veja os \emph{slides} no final dessa apresentação com \emph{links} para mais informações.
 \end{itemize}
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection[fragile]{Objetos flutuantes}
+\subsection[fragile]{Objetos Flutuantes}
 \begin{frame}{\insertsubsection}
 \begin{itemize}
-\item Permita que o \LaTeX{} decida onde a figura deve aparecer no texto
-(ela pode  ``flutuar'').
-\item Você pode colocar  legenda para uma figura usando \cmdbs{caption}, a qual pode ser referenciada  usando \cmdbs{ref}.
+  \item Permita que o \LaTeX{} decida onde a figura deve aparecer no texto (ela pode  ``flutuar'').
+  \item Você pode colocar  legenda para uma figura usando \cmdbs{caption}, a qual pode ser referenciada  usando \cmdbs{ref}.
 \end{itemize}
-\begin{minipage}{0.55\linewidth}
-\inputminted[fontsize=\scriptsize,frame=single,resetmargins]{latex}%
-  {media-graphics.tex}
+\begin{minipage}{0.575\linewidth}
+  \inputminted[fontsize=\scriptsize,frame=single,resetmargins]{latex}{media-graphics.tex}
 \end{minipage}
 \begin{minipage}{0.35\linewidth}
-\includegraphics[width=\textwidth,clip,trim=2in 5in 3in 1in]{media-graphics.pdf}
+  \includegraphics[width=\textwidth,clip,trim=2in 5in 3in 1in]{media-graphics.pdf}
 \end{minipage}
 \end{frame}
 
@@ -212,30 +199,28 @@ dessa apresentação com \emph{links} para mais informações.
 \subsection{Tabelas}
 \begin{frame}[fragile]{\insertsubsection}
 \begin{itemize}
-\item Tabelas em \LaTeX{} precisam de atenção.
-\item Use o ambiente \bftt{tabular} do pacote \bftt{tabularx}.
-\item Os argumento que especificam o alinhamento das colunas: \textbf{l} para esquerda (\emph{left}), \textbf{c} para centralizar e \textbf{r} para direita (\emph{right}).
+  \item Tabelas em \LaTeX{} precisam de atenção.
+  \item Use o ambiente \bftt{tabular} do pacote \bftt{tabularx}.
+  \item Os argumentos especificam o alinhamento das colunas: \textbf{l} para esquerda (\emph{left}), \textbf{c} para centralizar e \textbf{r} para direita (\emph{right}).
 \begin{exampletwouptiny}
 \begin{tabular}{lcr}
-Item    & Qtd. & Unid. \$ \\
-Celular & 1    & 399,99  \\
-Capa    & 2    & 99,99  \\
-Cabo    & 3    & 19,99   \\
+  Item    & Qtd. & Unid. \$ \\
+  Celular & 1    & 399,99   \\
+  Capa    & 2    & 99,99    \\
+  Cabo    & 3    & 19,99    \\
 \end{tabular}
 \end{exampletwouptiny}
-\item É necessário especificar as linhas verticais. Para as linhas horizontais,  use o
-comando \cmdbs{hline}.
+  \item É necessário especificar as linhas verticais.
+  Para as linhas horizontais, use o comando \cmdbs{hline}.
 \begin{exampletwouptiny}
-\begin{tabular}{|l|c|r|} \hline
-Item    & Qtd. & Unid. \$ \\\hline
-Celular & 1    & 399,99  \\
-Capa    & 2    & 99,99  \\
-Cabo    & 3    & 19,99   \\\hline
+\begin{tabular}{|l|c|r|}      \hline
+  Item    & Qtd. & Unid. \$ \\\hline
+  Celular & 1    & 399,99   \\
+  Capa    & 2    & 99,99    \\
+  Cabo    & 3    & 19,99    \\\hline
 \end{tabular}
 \end{exampletwouptiny}
-\item Use o ``E comercial''  \keystrokebftt{\&} para separar colunas e barras
-invertidas duplas \keystrokebftt{\bs}\keystrokebftt{\bs} para iniciar uma nova
-linha (como no ambiente  \bftt{align*} que vimos na parte 1).
+  \item Use o ``E comercial''  \keystrokebftt{\&} para separar colunas e barras invertidas duplas \keystrokebftt{\bs}\keystrokebftt{\bs} para iniciar uma nova linha (como no ambiente  \bftt{align*} que vimos na Parte 1).
 \end{itemize}
 \end{frame}
 
@@ -258,34 +243,29 @@ linha (como no ambiente  \bftt{align*} que vimos na parte 1).
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{bib\TeX}
-\begin{frame}[fragile]{\insertsubsection{} 1}
+\begin{frame}[fragile]{\insertsubsection{}}
 \begin{itemize}
-\item Coloque suas referências em um arquivo  \bftt{.bib}:
-\inputminted[fontsize=\tiny,frame=single]{latex}{bib-example.bib}
-\item A maioria dos \emph{softwares} de administração de referências exporta para o formato \bftt{bibtex}.
+  \item Coloque suas referências em um arquivo \bftt{.bib}:
+  \inputminted[fontsize=\tiny,frame=single]{latex}{bib-example.bib}
+  \item A maioria dos \emph{softwares} de administração de referências exporta para o formato \bftt{bibtex}.
 \end{itemize}
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]{\insertsubsection{} 2}
+\begin{frame}[fragile]{\insertsubsection{}}
 \begin{itemize}
-\item Cada entrada do arquivo the \bftt{.bib} tem uma \emph{chave} que você pode
-usar para referenciá-lo no documento. Por exemplo.  \bftt{Valente1999} é
-a chave para citar o artigo:
+  \item Cada entrada do arquivo the \bftt{.bib} tem uma \emph{chave} que você pode usar para referenciá-lo no documento. Por exemplo, \bftt{Valente1999} é a chave para citar o artigo:
 \begin{minted}[fontsize=\small,frame=single]{latex}
 @Article{Valente1999,
   author = {Wagner Rodrigues Valente},
   ...
 }
 \end{minted}
-\item É uma boa ideia usar chaves baseadas no autor, ano ou título do trabalho.
-\item \LaTeX{} pode formatar automaticamente suas citações e gerar uma lista de
-referências com os mais conhecidos padrões de estilos ou com o seu próprio.
-\item Para o português brasileiro, há um conjunto de pacotes chamado
-\href{http://www.abntex.net.br/}{\bftt{abntex2}} que
-formata as referências --- e o texto também --- segundo o padrão ABNT.
+  \item É uma boa ideia usar chaves baseadas no autor, ano ou título do trabalho.
+  \item \LaTeX{} pode formatar automaticamente suas citações e gerar uma lista de referências com os mais conhecidos padrões de estilos ou com o seu próprio.
+  \item Para o português brasileiro, há um conjunto de pacotes chamado \href{http://www.abntex.net.br/}{\bftt{abntex2}} que formata as referências --- e o texto também --- segundo o padrão ABNT.
 \end{itemize}
 \end{frame}
 
@@ -294,32 +274,31 @@ formata as referências --- e o texto também --- segundo o padrão ABNT.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]{\insertsubsection{} turbinado --- \bftt{biblatex}}
 \begin{itemize}
-\item Use o pacote \bftt{biblatex}  com opções \bftt{style} para formatar as referências (\bftt{numeric} é a preferida dos matemáticos) e  \cmdbs{cite} e \cmdbs{textcite} para citar no texto.
-\item Insira o comando \cmdbs{addbibresource} para incluir seu arquivo de referências e \cmdbs{printbibliography} para imprimi-las.
+  \item Use o pacote \bftt{biblatex}  com opções \bftt{style} para formatar as referências (\bftt{numeric} é a preferida dos matemáticos) e  \cmdbs{cite} e \cmdbs{textcite} para citar no texto.
+  \item Insira o comando \cmdbs{addbibresource} para incluir seu arquivo de referências e \cmdbs{printbibliography} para imprimi-las.
 \end{itemize}
-\begin{minipage}{0.5\linewidth}
-\inputminted[fontsize=\tiny,frame=single,resetmargins]{latex}%
-  {bib-example.tex}
+\begin{minipage}{0.525\linewidth}
+  \inputminted[fontsize=\tiny,frame=single,resetmargins]{latex}{bib-example.tex}
 \end{minipage}
 \begin{minipage}{0.4\linewidth}
-\includegraphics[width=\textwidth,clip,trim=1.8in 5in 1.5in 1in]{bib-example.pdf}
+  \includegraphics[width=\textwidth,clip,trim=1.8in 5in 1.5in 1in]{bib-example.pdf}
 \end{minipage}
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]{\insertsubsection{} turbinado II --- \bftt{biblatex} e  norma ABNT}
+\begin{frame}[fragile]{\insertsubsection{} turbinado --- \bftt{biblatex} e norma ABNT}
 \begin{itemize}
-\item  A partir do TeXLive 2016 está disponível o estilo \bftt{abnt} no \bftt{biblatex}.
-\item Basta colocar  como opção \bftt{style = abnt}. Todo o resto, o \LaTeX{} faz pra você.
+  \item  A partir do TeXLive 2016 está disponível o estilo \bftt{abnt} no \bftt{biblatex}.
+  \item Basta colocar  como opção \bftt{style = abnt}.
+  Todo o resto, o \LaTeX{} faz pra você.
 \end{itemize}
-\begin{minipage}{0.5\linewidth}
-\inputminted[fontsize=\tiny,frame=single,resetmargins]{latex}%
-  {bib-example-abnt.tex}
+\begin{minipage}{0.525\linewidth}
+  \inputminted[fontsize=\tiny,frame=single,resetmargins]{latex}{bib-example-abnt.tex}
 \end{minipage}
 \begin{minipage}{0.4\linewidth}
-\includegraphics[width=\textwidth,clip,trim=1.8in 5in 1.5in 1in]{bib-example-abnt.pdf}
+  \includegraphics[width=\textwidth,clip,trim=1.8in 5in 1.5in 1in]{bib-example-abnt.pdf}
 \end{minipage}
 \end{frame}
 
@@ -328,21 +307,14 @@ formata as referências --- e o texto também --- segundo o padrão ABNT.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Exercício}
 \begin{frame}[fragile]{Exercício: Juntando tudo}
-
 Adicione uma imagem, uma tabela  e várias bibliografias\footnote{Inclua tipos diferentes como artigo, livro, teses, etc.} ao artigo do exercício anterior.
-
 \begin{enumerate}
-\item Baixe os arquivos abaixo no seu computador.
-
-\begin{center}
-\fbox{\href{\fileuri/gerbil.jpg?dl=1}{Clique para baixar a imagem}}
-
-\fbox{\href{\fileuri/bib-exercise.bib?dl=1}{Clique para baixar o arquivo .bib}}
-\end{center}
-
-\item Adicione-os ao  Overleaf (use o menu de arquivos).
-
-
+  \item Baixe os arquivos abaixo no seu computador.
+  \begin{center}
+    \fbox{\href{\fileuri/gerbil.jpg?dl=1}{Clique para baixar a imagem}}
+    \fbox{\href{\fileuri/bib-exercise.bib?dl=1}{Clique para baixar o arquivo .bib}}
+  \end{center}
+  \item Adicione-os ao  Overleaf (use o menu de arquivos).
 \end{enumerate}
 \end{frame}
 
@@ -366,20 +338,20 @@ Adicione uma imagem, uma tabela  e várias bibliografias\footnote{Inclua tipos d
 \subsection{Mais coisas legais}
 \begin{frame}[fragile]{\insertsubsection}
 \begin{itemize}
-\item Adicione o comando \cmdbs{tableofcontents} para gerar o sumário automaticamente a partir dos comandos  \cmdbs{section}.
-
-\item Mude a classe de documentos em \cmdbs{documentclass} para
-\mint{latex}!\documentclass{scrartcl} %Koma-Script!
-ou
-\mint{latex}!\documentclass[12pt]{IEEEtran} %IEEE Transactions!
-
-\item Defina o seu próprio comando de uma equação complicada:
+  \item Adicione o comando \cmdbs{tableofcontents} para gerar o sumário automaticamente a partir dos comandos  \cmdbs{section}.
+  \item Mude a classe de documentos em \cmdbs{documentclass} para
+  \mint{latex}!\documentclass{scrartcl} %Koma-Script!
+  ou
+  \mint{latex}!\documentclass[12pt]{IEEEtran} %IEEE Transactions!
+  \item Defina o seu próprio comando de uma equação complicada:
 \begin{exampletwouptiny}
-\newcommand{\rperf}{%
-  \rho_{\text{perf}}}
-$$
-\rperf = {\bf c}'{\bf X} + \varepsilon
-$$
+\newcommand{\rperf}
+  {\rho_{\text{perf}}}
+
+\begin{equation}
+  \rperf =
+  {\bf c}'{\bf X} + \varepsilon
+\end{equation}
 \end{exampletwouptiny}
 \end{itemize}
 \end{frame}
@@ -390,17 +362,16 @@ $$
 \subsection{Mais pacotes legais}
 \begin{frame}{\insertsubsection}
 \begin{itemize}
-\item \bftt{beamer}: para apresentações (como esta aqui!)
-\item \bftt{todonotes}: comentários e gerenciamento listas TODO
-\item \bftt{tikz}: faça figuras sensacionais
-\item \bftt{pgfplots}: crie  gráficos em \LaTeX
-\item \bftt{listings}: imprima seu código fonte em \LaTeX
-\item \bftt{spreadtab}: crie planilhas em  \LaTeX
-\item \bftt{gchords}, \bftt{guitar}: acordes para violão e tablaturas
-\item \bftt{cwpuzzle}: para palavras cruzadas
+  \item \bftt{beamer}: para apresentações (como esta aqui!)
+  \item \bftt{todonotes}: comentários e gerenciamento listas TODO
+  \item \bftt{tikz}: faça figuras sensacionais
+  \item \bftt{pgfplots}: crie  gráficos em \LaTeX
+  \item \bftt{listings}: imprima seu código fonte em \LaTeX
+  \item \bftt{spreadtab}: crie planilhas em  \LaTeX
+  \item \bftt{gchords}, \bftt{guitar}: acordes para violão e tablaturas
+  \item \bftt{cwpuzzle}: para palavras cruzadas
 \end{itemize}
-Veja \url{https://www.overleaf.com/latex/examples} ou \url{http://texample.net} para
-exemplos da maioria desses pacotes\footnote{Em inglês.}.
+Veja \href{https://www.overleaf.com/latex/examples}{Overleaf} ou \href{http://texample.net}{texample} para exemplos da maioria desses pacotes.
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -409,14 +380,15 @@ exemplos da maioria desses pacotes\footnote{Em inglês.}.
 \subsection{Instalando \LaTeX{}}
 \begin{frame}{\insertsubsection}
 \begin{itemize}
-\item Para rodar o  \LaTeX{} no seu próprio computador, você vai precisar de uma \emph{distribuição} do \LaTeX{}. Uma distribuição inclui  um programa \bftt{latex} e (tipicamente) alguns milhares de pacotes.
-\begin{itemize}
-\item No Windows: \href{http://miktex.org/}{Mik\TeX} ou \href{http://tug.org/texlive/}{\TeX Live}
-\item No Linux: \href{http://tug.org/texlive/}{\TeX Live}
-\item No Mac: \href{http://tug.org/mactex/}{Mac\TeX}
-\end{itemize}
-\item Você também vai querer utilizar um editor para \LaTeX{}. Veja \url{en.wikipedia.org/wiki/Comparison_of_TeX_editors} para uma lista em inglês de opções.
-\item Você também vai precisar saber mais sobre como \bftt{latex} e suas ferramentas relacionadas funcionam --- veja fontes de recursos no próximo \emph{slide}.
+  \item Para compilar o \LaTeX{} no seu próprio computador, você vai precisar de uma \emph{distribuição} do \LaTeX{}.
+  Uma distribuição inclui um programa \bftt{latex} e (tipicamente) alguns milhares de pacotes.
+  \begin{itemize}
+    \item No Windows: \href{http://miktex.org/}{Mik\TeX} ou \href{http://tug.org/texlive/}{\TeX Live}
+    \item No Linux: \href{http://tug.org/texlive/}{\TeX Live}
+    \item No Mac: \href{http://tug.org/mactex/}{Mac\TeX}
+  \end{itemize}
+  \item Você também vai querer utilizar um editor para \LaTeX{}. Veja \href{http://en.wikipedia.org/wiki/Comparison_of_TeX_editors}{Wikipedia} para uma lista de opções.
+  \item Você também vai precisar saber mais sobre como \bftt{latex} e suas ferramentas relacionadas funcionam --- veja fontes de recursos no próximo \emph{slide}.
 \end{itemize}
 \end{frame}
 
@@ -426,16 +398,12 @@ exemplos da maioria desses pacotes\footnote{Em inglês.}.
 \subsection{Recursos}
 \begin{frame}{\insertsubsection}
 \begin{itemize}
-\item \href{http://en.wikibooks.org/wiki/LaTeX}{The \LaTeX{} Wikibook} ---
-tutoriais excelentes e material de referência.
-\item \href{http://tex.stackexchange.com/}{\TeX{} Stack Exchange} --- pergunte questões e tenha respostas excelentes e rápidas.
-\item \href{http://www.latex-community.org/}{\LaTeX{} Community} --- um imenso fórum \emph{online}
-\item \href{http://ctan.org/}{Comprehensive \TeX{} Archive Network (CTAN)} ---
-mais de quatro mil pacotes e sua documentação
-
-
-\item \href{http://latexbr.blogspot.com.br/}{\LaTeX{} BR --- blog com dicas em português}
-\item Google em geral vai levá-lo para um dos \emph{links} acima.
+  \item \href{http://en.wikibooks.org/wiki/LaTeX}{The \LaTeX{} Wikibook} --- tutoriais excelentes e material de referência.
+  \item \href{http://tex.stackexchange.com/}{\TeX{} Stack Exchange} --- pergunte questões e tenha respostas excelentes e rápidas.
+  \item \href{http://www.latex-community.org/}{\LaTeX{} Community} --- um imenso fórum \emph{online}
+  \item \href{http://ctan.org/}{Comprehensive \TeX{} Archive Network (CTAN)} --- mais de quatro mil pacotes e sua documentação
+  \item \href{http://latexbr.blogspot.com.br/}{\LaTeX{} BR --- blog com dicas em português}
+  \item Google em geral vai levá-lo para um dos \emph{links} acima.
 \end{itemize}
 \end{frame}
 
